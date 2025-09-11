@@ -10,7 +10,6 @@ function InputBox({
     amountDisable =false,
     currencyDisable=false,
 
-
     className = "",
 }) {
     return (
