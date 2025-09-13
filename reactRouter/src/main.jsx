@@ -9,7 +9,6 @@ import {
 import "./index.css";
 import Layout from "./Layout.jsx";
 import Home from "./components/home/Home.jsx";
-import Footer from "./components/footer/Footer.jsx";
 import About from "./components/about/About.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import User from "./components/user/User.jsx";
@@ -49,13 +48,9 @@ const router=createBrowserRouter(
       path='github' 
       element={<Github />}
        />
-
     </Route>
   )
 )
-
-
-
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router} />
